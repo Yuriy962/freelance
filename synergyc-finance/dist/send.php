@@ -33,6 +33,7 @@ try {
 
     
     $mail->addAddress('buranov@seoprostor.ru');
+    $mail->addAddress('info@softdesign-apps.com');
     
     // Отправка сообщения
     $mail->isHTML(true);
