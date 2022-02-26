@@ -25,13 +25,12 @@ try {
 
     
     $mail->Host       = 'smtp.yandex.ru'; // SMTP сервер
-    $mail->Username   = 'buranov@seoprostor.ru'; // Логин на почте
-    $mail->Password   = 'Samara2020'; // Пароль на почте
+    $mail->Username   = ''; // Логин на почте
+    $mail->Password   = ''; // Пароль на почте
     $mail->SMTPSecure = 'ssl';
     $mail->Port       = 465;
-    $mail->setFrom('buranov@seoprostor.ru', 'SYNERGIC FINANCE'); // Адрес самой почты и имя отправителя
+    $mail->setFrom('', 'SYNERGIC FINANCE'); // Адрес самой почты и имя отправителя
 
-    $mail->addAddress('buranov@seoprostor.ru');
     $mail->addAddress('info@softdesign-apps.com');
     
     // Отправка сообщения
